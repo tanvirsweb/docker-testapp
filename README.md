@@ -25,7 +25,7 @@ A simple **Node.js + MongoDB** full stack demo app containerized using Docker, w
 ## 🔧 Setup Environment via Docker
 
 > 🧠 **First-time setup** (build & run containers + create network):
-> Open terminal in your project root directory. Then run:
+> Ensure Docker Desktop is running on your system before proceeding. Open terminal in your project root directory. Then run:
 
 ```bash
 docker compose -f mongodb.yaml up
@@ -104,5 +104,3 @@ Make sure Node.js is installed on your local system.
    ```
 
 ---
-
-
