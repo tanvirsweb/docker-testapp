@@ -1,0 +1,84 @@
+    1  ls
+    2  cd ..
+    3  ls
+    4  clear
+    5  exit
+    6  history
+    7  exit
+    8  docker -v
+    9  docker
+   10  docker pull hello-world:nanoserver-ltsc2025
+   11  docker pull hello-world
+   12  docker images
+   13  docker run hello-world
+   14  docker run -it ubuntu
+   15  docker ps -a
+   16  docker start ubuntu
+   17  docker start a5b2e5e5fc75871c05f50ab1de3a93663c01317328dfb29df257720f7feef93a
+   18  docker start a5b2e5e5fc75
+   19  docker start -it a5b2e5e5fc75
+   20  docker start a5b2e5e5fc75
+   21  docker ps
+   22  docker stop a5b2e5e5fc75
+   23  docker ps
+   24  docker ps -a
+   25  docker images
+   26  docker pull mysql
+   27  docker ps
+   28  docker ps -a
+   29  docker images
+   30  docker pull mysql:8.0
+   31  docker run -d -e MYSQL_ROOT_PASSWORD=secret mysql
+   32  docker ps
+   33  docker run -d -e MYSQL_ROOT_PASSWORD=secret --name mysql-older mysql
+   34  docker run -d -e MYSQL_ROOT_PASSWORD=secret --name mysql-older mysql:8.0
+   35  docker ps
+   36  docker stop 296bbb5815e3
+   37  docker rm 296bbb5815e3
+   38  docker images
+   39  docker rmi mysql
+   40  docker images
+   41  docker ps
+   42  docker images
+   43  docker pull mysql
+   44  docker run -d -e MYSQL_ROOT_PASSWORD=secret --name mysql-latest mysql
+   45  docker ps
+   46  docker stop mysql-latest
+   47* docker rmi mysql-latest
+   48  docker stop mysql-older
+   49  docker rm mysql-older
+   50  docker pa -a
+   51  docker ps -a
+   52  docker images
+   53  docker run -d -e MYSQL_ROOT_PASSWORD=secret --name mysql-latest -p8080:3306 mysql
+   54  docker ps
+   55  docker run -d -e MYSQL_ROOT_PASSWORD=secret --name mysql-older -p8080:3306 mysql:8.0
+   56  docker run -d -e MYSQL_ROOT_PASSWORD=secret --name mysql-older -p5000:5000 mysql:8.0
+   57  docker stop mysql-older
+   58  docker rm mysql-older
+   59  docker run -d -e MYSQL_ROOT_PASSWORD=secret --name mysql-older -p3000:3306 mysql:8.0
+   60  docker ps
+   61  docker logs mysql-latest
+   62  docker exec -it mysql-latest /bin/bash
+   63  docker ps
+   64  docker newtork ls
+   65  docker network ls
+   66  docker network create mongo-network
+   67  docker network ls
+   68  docker -d 27017:27017 \
+   69  docker -d -p27017 --name mongo --network mongo-network -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=qwerty mongo
+   70  docker run -d -p27017 --name mongo --network mongo-network -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=qwerty mongo
+   71  docker ps
+   72  docker run -d -p8081:8081 --name mongo-express --network mongo-network -e ME_CONFIG_MONGODB_ADMINUSERNAME=admin -e ME_CONFIG_MONGODB_ADMINPASSWORD=qwerty -e ME_CONFIG_MONGODB_URL="mongodb://admin:qwerty@mongo:27017" mongo-express
+   73  docker ps
+   74  echo "docker compose: .yaml"
+   75  cd "D:\gitProjectsTanvirAnjomSiddique\All_Github_Projects\docker-testapp\"
+   76  cd "D:/gitProjectsTanvirAnjomSiddique/All_Github_Projects/docker-testapp/"
+   77  echo "delete all previous containers and images from docker desktop"
+   78  docker compose -f mongodb.yaml up -d
+   79  docker compose -f mongodb.yaml up -d
+   80  docker ps
+   81  docker compose -f mongodb.yaml up -d
+   82  docker compose -f mongodb.yaml up -d
+   83  docker compose -f mongodb.yaml up -d
+   84  history >> docker_history.txt
