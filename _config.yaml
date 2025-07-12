@@ -1,0 +1,18 @@
+title: Full-Stack Docker Demo with Node.js & MongoDB
+description: A comprehensive demonstration of a full-stack app containerized with Docker, featuring Node.js and MongoDB.
+# layout: post
+# date: 2025-07-12
+categories: blog docker nodejs mongodb fullstack
+theme: jekyll-theme-cayman
+
+baseurl: "/docker-testapp"
+url: "https://tanvirsweb.github.io"
+
+footer: >
+  © 2025 Tanvir Anjom Siddique — Powered by GitHub Pages and Jekyll
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown

@@ -2,6 +2,11 @@
 
 A simple **Node.js + MongoDB** full stack demo app containerized using Docker, with Mongo Express for database UI management.
 
+> 👨‍💻 _Made by [Tanvir Anjom Siddique](https://tanvirsweb.github.io)_  
+> 📺 _Learned from YouTube: [Apna College Official](https://www.youtube.com/@ApnaCollegeOfficial)_
+
+> ** [Click to view detailed instructions in website](https://tanvirsweb.github.io/docker-testapp/) **
+
 ---
 
 ## 🐳 Docker Command Reference
